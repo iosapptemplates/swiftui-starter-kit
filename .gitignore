@@ -5,6 +5,8 @@
 ## Build generated
 build/
 DerivedData/
+FirebaseStarterSwiftUIApp/Pods/
+FirebaseStarterSwiftUIApp/Podfile.lock
 
 ## Various settings
 *.pbxuser

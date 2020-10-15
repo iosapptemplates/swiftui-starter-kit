@@ -27,6 +27,7 @@ struct WelcomeView: View {
                         .resizable()
                         .frame(width: 120, height: 120, alignment: .center)
                         .colorMultiply(Color(UIConfiguration.tintColor))
+                        .padding(.top, 100)
                     
                     Text("Welcome to your app")
                         .modifier(TextModifier(font: UIConfiguration.titleFont,
