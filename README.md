@@ -5,6 +5,8 @@ Planning to build a SwiftUI application for iOS using Firebase as its backend? S
 <a href="https://www.iosapptemplates.com/templates/swiftui-firebase"><img src="https://www.iosapptemplates.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-15-at-5.02.44-PM.png" /></a>
 </center>
 
+For more info, check out our [SwiftUI Firebase](https://www.iosapptemplates.com/templates/swiftui-firebase) free starter.
+
 ## Getting Started
 1. Install the pods
 ```
