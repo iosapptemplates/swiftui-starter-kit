@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171629682913603100CFB356 /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171629672913603100CFB356 /* FBSDKCoreKit.xcframework */; };
 		30127DCB24DE506300576F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30127DCA24DE506300576F65 /* AppDelegate.swift */; };
 		30127DCD24DE506300576F65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30127DCC24DE506300576F65 /* SceneDelegate.swift */; };
 		30127DCF24DE506300576F65 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30127DCE24DE506300576F65 /* SignInView.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		0B8AE8CB2A252EC929D1448D /* Pods-FirebaseStarterSwiftUIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseStarterSwiftUIApp.release.xcconfig"; path = "Target Support Files/Pods-FirebaseStarterSwiftUIApp/Pods-FirebaseStarterSwiftUIApp.release.xcconfig"; sourceTree = "<group>"; };
+		171629672913603100CFB356 /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit.xcframework; path = Pods/FBSDKCoreKit/XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
 		30127DC724DE506300576F65 /* FirebaseStarterSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseStarterSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30127DCA24DE506300576F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30127DCC24DE506300576F65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171629682913603100CFB356 /* FBSDKCoreKit.xcframework in Frameworks */,
 				D86C249AD9B318D7EDABE111 /* Pods_FirebaseStarterSwiftUIApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +200,7 @@
 		B113BEC14339CA90855842E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				171629672913603100CFB356 /* FBSDKCoreKit.xcframework */,
 				33EF7DB6D4437A5CDC876808 /* Pods_FirebaseStarterSwiftUIApp.framework */,
 			);
 			name = Frameworks;
